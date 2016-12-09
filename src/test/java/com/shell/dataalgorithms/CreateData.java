@@ -3,11 +3,8 @@ package com.shell.dataalgorithms;
 import java.io.StringBufferInputStream;
 import java.net.URI;
 import java.net.URISyntaxException;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.EnumSet;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Random;
 import java.util.Set;
 
@@ -19,8 +16,6 @@ import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IOUtils;
 import org.apache.hadoop.io.SequenceFile;
-
-import com.google.common.collect.Lists;
 
 @SuppressWarnings("deprecation")
 public class CreateData {
